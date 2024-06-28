@@ -1,0 +1,23 @@
+
+.chessboard {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+.chessboard td {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.chessboard .white {
+  background-color: #f0d9b5;
+}
+
+.chessboard .black {
+  background-color: #b58863;
+}
+.chessboard .selected{
+  background-color:blue;
+}
